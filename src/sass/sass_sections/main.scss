@@ -516,9 +516,11 @@
     .title{
         text-align: center;
     }
+
     .customers__items{
         text-align: center;
         margin-top: 62px;
+        margin-bottom: 50px;
 
         .customers__image{
             max-width: 120px;
@@ -546,6 +548,18 @@
             font-weight: 500;
             font-size: 20px;
             color: $titleBlue;
+        }
+    }
+    .swiper-pagination-clickable {
+        .swiper-pagination-bullet{
+            background-color: #ff8a47;
+            margin: 0 6px;
+            transition: .2s ease;
+
+            &.swiper-pagination-bullet-active{
+                width: 10px;
+                height: 10px;
+            }
         }
     }
 }

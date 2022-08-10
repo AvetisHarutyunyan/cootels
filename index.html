@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
@@ -263,14 +264,54 @@
             <div class="container">
                 <p class="title">Hear From Our Happy Customers</p>
 
-                <div class="customers__items">
-                    <div class="customers__image"><img src="./images/customers_img.svg" alt="image"></div>
-                    <p class="customers__text">
-                        “Great service, great food, great people. The scenery is also beautiful, you can do so much
-                        activity even with your famility. Worth every penny! you should come and see for your self. 5
-                        out of 5! the waffle is great!”
-                    </p>
-                    <p class="customers__name">Kirana Dunham</p>
+                <div class="swiper customers">
+                    <div class="swiper-wrapper">
+
+                        <!-- ==================== item 1 ===================== -->
+                        <div class="customers__items swiper-slide">
+                            <div class="customers__image"><img src="./images/customers_img.svg" alt="image"></div>
+                            <p class="customers__text">
+                                “Great service, great food, great people. The scenery is also beautiful, you can do so much
+                                activity even with your famility. Worth every penny! you should come and see for your self. 5
+                                out of 5! the waffle is great!”
+                            </p>
+                            <p class="customers__name">Kirana Dunham</p>
+                        </div>
+
+                        <!-- ==================== item 2 ===================== -->
+                        <div class="customers__items swiper-slide">
+                            <div class="customers__image"><img src="./images/customers_img.svg" alt="image"></div>
+                            <p class="customers__text">
+                                “Great service, great food, great people. The scenery is also beautiful, you can do so much
+                                activity even with your famility. Worth every penny! you should come and see for your self. 5
+                                out of 5! the waffle is great!”
+                            </p>
+                            <p class="customers__name">Jane Dreiser</p>
+                        </div>
+
+                        <!-- ==================== item 3 ===================== -->
+                        <div class="customers__items swiper-slide">
+                            <div class="customers__image"><img src="./images/customers_img.svg" alt="image"></div>
+                            <p class="customers__text">
+                                “Great service, great food, great people. The scenery is also beautiful, you can do so much
+                                activity even with your famility. Worth every penny! you should come and see for your self. 5
+                                out of 5! the waffle is great!”
+                            </p>
+                            <p class="customers__name">Luiz Madden</p>
+                        </div>
+
+                        <!-- ==================== item 4 ===================== -->
+                        <div class="customers__items swiper-slide">
+                            <div class="customers__image"><img src="./images/customers_img.svg" alt="image"></div>
+                            <p class="customers__text">
+                                “Great service, great food, great people. The scenery is also beautiful, you can do so much
+                                activity even with your famility. Worth every penny! you should come and see for your self. 5
+                                out of 5! the waffle is great!”
+                            </p>
+                            <p class="customers__name">Ayala Orianna</p>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -342,6 +383,7 @@
         </section>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./js/all.js"></script>
 
 </body>
